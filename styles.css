@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+.conteiner {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    bottom: 20px;
+}
+
+.main-aside h2{
+    text-align: center;
+}
+.main-aside h2:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+.main-aside ul a{
+    text-decoration: none;
+    color: black;
+}
+.main-aside ul a:visited{
+
+    color: purple;
+    
+}
+.main-aside ul a:hover{
+    color: red;
+}
+
+.main-form {
+    margin: 20px;
+}
+
+/* FORMULÁRIOS */
+
+.main-form  {
+    padding-left: 20px;
+}
+
+.main-form .form-grup {
+    padding-bottom: 20px;
+}
+
+.main-form .form-grup label{
+    display: block;
+}
+
+.main-form .form-grup input{
+    padding: 10px;
+}
+
+.button{
+    padding: 10px;
+    background-color: #333;
+    color: blue;
+    border: none;
+}
+
+/* POSIÇÕES */
+
+.relative{
+    position: relative;
+    border: 3px solid #333;
+    height: 500px;
+    border-radius: 7px;
+}
+
+.relative .absolute {
+    position: absolute;
+    bottom: 0px;
+}
+
+.relative .absolute h1{
+    margin: 0px;
+}
+
+/* Barra de navegação */
+
+#main-navbar {
+    background: #333;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+/* Fixed Botton */
+
+.fixed-button {
+    background: #333;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+/* Categorias */
+
+.categorias ul {
+    list-style: none;
+}
+
+.categorias ul li:first-child{
+    color: red;
+}
+
+.categorias ul li:last-child{
+    color: green;
+}
+
+.categorias ul li:nth-child(2){
+    color: maroon;
+}
